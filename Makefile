@@ -50,6 +50,9 @@ dependencies: ## install dependencies from requirements.txt
 	python -m pip install pip-tools
 	pip install -r requirements.txt
 
+train-dependencies: ## install dependencies from test_requirements.txt
+	pip install -r train_requirements.txt
+
 test-dependencies: ## install dependencies from test_requirements.txt
 	pip install -r test_requirements.txt
 
